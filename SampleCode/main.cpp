@@ -56,6 +56,7 @@ struct Rect
 int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int)
 {
 	ChangeWindowMode(true);
+	SetWindowText(L"1916022_í√ìcèwëæ");
 	DxLib_Init();
 	SetDrawScreen(DX_SCREEN_BACK);
 
